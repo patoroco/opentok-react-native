@@ -21,11 +21,10 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
-		276C60B81B9D4C05006B9B35 /* RCTOrientation in Resources */ = {isa = PBXBuildFile; fileRef = 276C60B71B9D4C05006B9B35 /* RCTOrientation */; };
-		276C60C51B9D50C4006B9B35 /* Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 276C60C41B9D50C4006B9B35 /* Orientation.m */; };
 		277205471B9D71D30029114A /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 277205461B9D71D30029114A /* Ionicons.ttf */; };
+		7BCE9D9A02F6FECC45C2C649 /* libPods-ReactMeet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF1A888CC412B9086535951 /* libPods-ReactMeet.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		8CB80344F2479E755C0CF225 /* libPods-ReactMeet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFF2FB87E745C3C58E41FC2D /* libPods-ReactMeet.a */; };
+		B95DD0A31DB3F2E100207F9C /* libRCTOrientation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B95DD0A21DB3F1CA00207F9C /* libRCTOrientation.a */; };
 		CD9CAF191B782D2A003F9790 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9CAF181B782D2A003F9790 /* AudioToolbox.framework */; };
 		CD9CAF1B1B782D32003F9790 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9CAF1A1B782D32003F9790 /* AVFoundation.framework */; };
 		CD9CAF1D1B782D3A003F9790 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD9CAF1C1B782D3A003F9790 /* CoreGraphics.framework */; };
@@ -126,6 +125,13 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
+		B95DD0A11DB3F1CA00207F9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B95DD09D1DB3F1CA00207F9C /* RCTOrientation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTOrientation;
+		};
 		CDE312C91B9D686B007D2D6D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CDE312C51B9D686B007D2D6D /* RNKeyboardEvents.xcodeproj */;
@@ -155,13 +161,13 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactMeet/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactMeet/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
-		276C60B71B9D4C05006B9B35 /* RCTOrientation */ = {isa = PBXFileReference; lastKnownFileType = folder; name = RCTOrientation; path = "../node_modules/react-native-orientation/RCTOrientation"; sourceTree = "<group>"; };
-		276C60C41B9D50C4006B9B35 /* Orientation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Orientation.m; path = "../node_modules/react-native-orientation/RCTOrientation/Orientation.m"; sourceTree = "<group>"; };
+		1FF1A888CC412B9086535951 /* libPods-ReactMeet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactMeet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		277205461B9D71D30029114A /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		AE8EE8D0F827F2B68E822989 /* Pods-ReactMeet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactMeet.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactMeet/Pods-ReactMeet.release.xcconfig"; sourceTree = "<group>"; };
-		AFDBD855D63DFF7A8F9C40DE /* Pods-ReactMeet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactMeet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactMeet/Pods-ReactMeet.debug.xcconfig"; sourceTree = "<group>"; };
+		9715C66D64150A3DC8A79CB2 /* Pods-ReactMeet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactMeet.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactMeet/Pods-ReactMeet.release.xcconfig"; sourceTree = "<group>"; };
+		B95DD09D1DB3F1CA00207F9C /* RCTOrientation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTOrientation.xcodeproj; path = "../node_modules/react-native-orientation/iOS/RCTOrientation.xcodeproj"; sourceTree = "<group>"; };
+		CC98DA8CEAEEC69A93CBD5C2 /* Pods-ReactMeet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactMeet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactMeet/Pods-ReactMeet.debug.xcconfig"; sourceTree = "<group>"; };
 		CD9CAF181B782D2A003F9790 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		CD9CAF1A1B782D32003F9790 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		CD9CAF1C1B782D3A003F9790 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -184,7 +190,6 @@
 		CDAEF1D21B786F3700BF410C /* SubscriberHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubscriberHelper.h; path = ReactMeet/SubscriberHelper.h; sourceTree = "<group>"; };
 		CDAEF1D31B786F3700BF410C /* SubscriberHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubscriberHelper.m; path = ReactMeet/SubscriberHelper.m; sourceTree = "<group>"; };
 		CDE312C51B9D686B007D2D6D /* RNKeyboardEvents.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNKeyboardEvents.xcodeproj; path = "../node_modules/react-native-keyboardevents/RNKeyboardEvents.xcodeproj"; sourceTree = "<group>"; };
-		EFF2FB87E745C3C58E41FC2D /* libPods-ReactMeet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactMeet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +204,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B95DD0A31DB3F2E100207F9C /* libRCTOrientation.a in Frameworks */,
 				CDE312CB1B9D688A007D2D6D /* libRNKeyboardEvents.a in Frameworks */,
 				CD9CAF2A1B782D92003F9790 /* CoreTelephony.framework in Frameworks */,
 				CD9CAF2B1B782D92003F9790 /* Foundation.framework in Frameworks */,
@@ -224,7 +230,7 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				8CB80344F2479E755C0CF225 /* libPods-ReactMeet.a in Frameworks */,
+				7BCE9D9A02F6FECC45C2C649 /* libPods-ReactMeet.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +292,15 @@
 				00E356F11AD99517003FC87E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1325CA8D11A8B8C7234BD865 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC98DA8CEAEEC69A93CBD5C2 /* Pods-ReactMeet.debug.xcconfig */,
+				9715C66D64150A3DC8A79CB2 /* Pods-ReactMeet.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		139105B71AF99BAD00B5F7CC /* Products */ = {
@@ -370,15 +385,14 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				B95DD09D1DB3F1CA00207F9C /* RCTOrientation.xcodeproj */,
 				277205461B9D71D30029114A /* Ionicons.ttf */,
-				276C60C41B9D50C4006B9B35 /* Orientation.m */,
-				276C60B71B9D4C05006B9B35 /* RCTOrientation */,
 				CD9CAF341B782DA4003F9790 /* Frameworks */,
 				13B07FAE1A68108700A75B9A /* ReactMeet */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ReactMeetTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
-				EE09CE5F1ACE4FA199BFD305 /* Pods */,
+				1325CA8D11A8B8C7234BD865 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -389,6 +403,14 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* ReactMeet.app */,
 				00E356EE1AD99517003FC87E /* ReactMeetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B95DD09E1DB3F1CA00207F9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B95DD0A21DB3F1CA00207F9C /* libRCTOrientation.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -410,7 +432,7 @@
 				CD9CAF1C1B782D3A003F9790 /* CoreGraphics.framework */,
 				CD9CAF1A1B782D32003F9790 /* AVFoundation.framework */,
 				CD9CAF181B782D2A003F9790 /* AudioToolbox.framework */,
-				EFF2FB87E745C3C58E41FC2D /* libPods-ReactMeet.a */,
+				1FF1A888CC412B9086535951 /* libPods-ReactMeet.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -421,15 +443,6 @@
 				CDE312CA1B9D686B007D2D6D /* libRNKeyboardEvents.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		EE09CE5F1ACE4FA199BFD305 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				AFDBD855D63DFF7A8F9C40DE /* Pods-ReactMeet.debug.xcconfig */,
-				AE8EE8D0F827F2B68E822989 /* Pods-ReactMeet.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -457,13 +470,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactMeet" */;
 			buildPhases = (
-				F24CAD26E9F4777A95D729B0 /* Check Pods Manifest.lock */,
+				86F70C9DD56B05275A0C234E /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
-				F8F5DFE3DDA120407640E60B /* Copy Pods Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				902CFD7D24718BE02990F430 /* Embed Pods Frameworks */,
+				78607A63B61CC9396D89F8FC /* [CP] Embed Pods Frameworks */,
+				660817F678B869D7BEEED80F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -485,10 +498,11 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 6244G5YADM;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = MGD69Q275W;
+						DevelopmentTeam = 6244G5YADM;
 					};
 				};
 			};
@@ -523,6 +537,10 @@
 				{
 					ProductGroup = 00C302D41ABCB9D200DB3ED1 /* Products */;
 					ProjectRef = 00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */;
+				},
+				{
+					ProductGroup = B95DD09E1DB3F1CA00207F9C /* Products */;
+					ProjectRef = B95DD09D1DB3F1CA00207F9C /* RCTOrientation.xcodeproj */;
 				},
 				{
 					ProductGroup = 139105B71AF99BAD00B5F7CC /* Products */;
@@ -628,6 +646,13 @@
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		B95DD0A21DB3F1CA00207F9C /* libRCTOrientation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTOrientation.a;
+			remoteRef = B95DD0A11DB3F1CA00207F9C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		CDE312CA1B9D686B007D2D6D /* libRNKeyboardEvents.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -652,7 +677,6 @@
 				277205471B9D71D30029114A /* Ionicons.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				276C60B81B9D4C05006B9B35 /* RCTOrientation in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,14 +697,29 @@
 			shellPath = /bin/sh;
 			shellScript = "../node_modules/react-native/packager/react-native-xcode.sh";
 		};
-		902CFD7D24718BE02990F430 /* Embed Pods Frameworks */ = {
+		660817F678B869D7BEEED80F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactMeet/Pods-ReactMeet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78607A63B61CC9396D89F8FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -688,34 +727,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactMeet/Pods-ReactMeet-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F24CAD26E9F4777A95D729B0 /* Check Pods Manifest.lock */ = {
+		86F70C9DD56B05275A0C234E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		F8F5DFE3DDA120407640E60B /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactMeet/Pods-ReactMeet-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -733,7 +757,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				276C60C51B9D50C4006B9B35 /* Orientation.m in Sources */,
 				CDAEF1D41B786F3700BF410C /* SubscriberHelper.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				CD9CAF3E1B783AEE003F9790 /* EvilDirtyHack.m in Sources */,
@@ -771,6 +794,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6244G5YADM;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -792,6 +816,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 6244G5YADM;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -806,10 +831,12 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFDBD855D63DFF7A8F9C40DE /* Pods-ReactMeet.debug.xcconfig */;
+			baseConfigurationReference = CC98DA8CEAEEC69A93CBD5C2 /* Pods-ReactMeet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 6244G5YADM;
+				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -818,7 +845,10 @@
 				INFOPLIST_FILE = ReactMeet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "$(inherited) -ObjC";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_NAME = ReactMeet;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -826,10 +856,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE8EE8D0F827F2B68E822989 /* Pods-ReactMeet.release.xcconfig */;
+			baseConfigurationReference = 9715C66D64150A3DC8A79CB2 /* Pods-ReactMeet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6244G5YADM;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -842,7 +874,10 @@
 				INFOPLIST_FILE = ReactMeet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "$(inherited) -ObjC";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
 				PRODUCT_NAME = ReactMeet;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
