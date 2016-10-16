@@ -20,7 +20,7 @@ import {
   initPublisher,
   initSession,
 } from './src/index.ios.js';
-import { getBestDimensions } from './src/layout_container.ios.js';
+import getBestDimensions from './src/layout_container.ios.js';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 import LoadingView from './views/loading_view.ios.js';
